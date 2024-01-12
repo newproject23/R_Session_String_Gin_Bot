@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/rowes-star/R_Session_String_Gin_Bot",
+  "repository": "https://github.com/newproject23/R_Session_String_Gin_Bot",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -50,7 +50,7 @@
     "MUST_JOIN": {
       "description": "Username of a group or channel for which you want to set force sub.(without @)",
       "required": true,
-      "value": "R7_QX"
+      "value": "source_alpop"
     },
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather",
