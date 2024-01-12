@@ -8,7 +8,10 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("↯︙المطور .", url="https://t.me/RO_V0"),
+        [InlineKeyboardButton("↯︙المطور .", url="https://t.me/j_s_9"),
+        ],
+
+        [InlineKeyboardButton("↯︙المطور .", url="https://t.me/j_s_9"),
         ],
     ]
 
