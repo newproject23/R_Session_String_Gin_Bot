@@ -16,6 +16,9 @@ class Data:
 
         [InlineKeyboardButton("↯︙السورس .", url="https://t.me/source_alpop"),
         ],
+
+        [InlineKeyboardButton("↯︙جروب الدعم .", url="https://t.me/bar_alpop"),
+        ],
     ]
 
     START = """
