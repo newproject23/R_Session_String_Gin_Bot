@@ -18,7 +18,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 chat_info = await bot.get_chat(MUST_JOIN)
                 link = chat_info.invite_link
             try:
-                await msg.reply_photo(photo="https://graph.org/file/a0905ed81cdf253ca104b.jpg", caption=f"↯︙ عـݪـيك اެݪاެشـتراެك فـي قـنـاެة اެݪـبـوت 📻 .\n↯︙يوزر القناة ( {link} ) .",
+                await msg.reply_photo(photo="https://telegra.ph/file/f698f60484b7aef0d6f29.jpg", caption=f"↯︙ عـݪـيك اެݪاެشـتراެك فـي قـنـاެة اެݪـبـوت 📻 .\n↯︙يوزر القناة ( {link} ) .",
                     reply_markup=InlineKeyboardMarkup([
                         [InlineKeyboardButton("اضغط هنا للاشتراك💤", url=f"{link}")]
                     ])
@@ -27,4 +27,4 @@ async def must_join_channel(bot: Client, msg: Message):
             except ChatWriteForbidden:
                 pass
     except ChatAdminRequired:
-        print(f"Promote me as an admin in the MUST_JOIN chat : {MUST_JOIN} !")
+        print(f"ارفعني ادمن يعم في قناه او جروب الاشتراك الاجباري : {MUST_JOIN} !")
